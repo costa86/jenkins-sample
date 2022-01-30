@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'testing ${env.BUILD_ID}'
+                echo 'testing ${BRANCH_NAME}'
             }
         }
     }
