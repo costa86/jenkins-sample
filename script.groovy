@@ -3,7 +3,7 @@ def buildApp() {
 } 
 
 def testApp() {
-    echo 'testing vfvvfdvfd  the application...'
+    echo 'testing wfefewf  the application...'
 } 
 
 def deployApp() {
