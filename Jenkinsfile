@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        NAME = 'ana'
+    }
     stages {
         stage('build') {
             steps {
@@ -8,7 +11,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'testing ${BRANCH_NAME}'
+                echo "testing ${NAME}"
             }
         }
     }
